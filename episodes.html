@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RICK AND MORTY</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./images/logo.png" alt="">
+      </div>
+
+      <div class="nav">
+        <a href="index.html">Characters</a>
+        <a class="active" href="episodes.html">Episodes</a>
+        <a href="locations.html">Locations</a>
+      </div>
+    </nav>
+
+    <div class="heading">
+      The Rick and Morty API
+    </div>
+    
+  </header>
+
+  <section id="episodes">
+
+    <h2 class="section-title">ALL EPISODES</h2>
+
+    <div class="episodes-wrapper">
+
+      <div class="episode">
+        <h2>Name</h2>
+        <h5>Aired Date</h5>
+        <h3>Episode Number</h3>
+        <h4>Characters casted in the episode</h4>
+        <div class="casts-wrapper">
+          <div class="cast">
+            <img src="./images/rick_sanchez.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="btn-group">
+      <button class="btn" id="prevBtn">&leftarrow;Prev</button>
+      <button class="btn" id="nextBtn">Next&rightarrow;</button>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+  <footer>
+    &copy; ALL RIGHT RESERVED 2024 <span id="source">THE RICK AND MORTY API</span>
+  </footer>
+
+
+  <script type="module" src="src/pages/episodes.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RICK AND MORTY</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+  
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="./images/logo.png" alt="">
+      </div>
+
+      <div class="nav">
+        <a class="active" href="index.html">Characters</a>
+        <a href="episodes.html">Episodes</a>
+        <a href="locations.html">Locations</a>
+      </div>
+    </nav>
+
+    <div class="heading">
+      The Rick and Morty API
+    </div>
+    
+  </header>
+
+  <section id="characters">
+
+    <h2 class="section-title">ALL CHARACTERS</h2>
+
+    <div class="characters-wrapper">
+
+      <div class="character">
+        <div class="cover">
+          <img src="./images/rick_sanchez.jpeg" alt="">
+        </div>
+        <div class="detail">
+          <h4>Name</h4>
+          <p>Status - Species</p>
+          <div class="location">
+            <p class="label">Last known location</p>
+            <p><a href="#">Location</a></p>
+          </div>
+          <div class="origin">
+            <p class="label">First seen in</p>
+            <p><a href="#">Origin</a></p>
+          </div>
+          <div class="eps">
+            <p class="label">Episodes</p>
+            <p>Number of Episodes</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="btn-group">
+      <button class="btn" id="prevBtn">&leftarrow;Prev</button>
+      <button class="btn" id="nextBtn">Next&rightarrow;</button>
+    </div>
+
+  </section>
+
+
+
+
+
+
+
+
+  <footer>
+    &copy; ALL RIGHT RESERVED 2024 <span id="source">THE RICK AND MORTY API</span>
+  </footer>
+
+
+  <script type="module" src="src/pages/index.js"></script>
+</body>
+</html>
